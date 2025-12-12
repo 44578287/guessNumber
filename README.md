@@ -175,11 +175,11 @@ Core/                            # 核心代码
 |          | `show_game_score(score)`                      | void | 绘制游戏当前得分    |
 
 ### 🧰 辅助函数(`tool.h`)
-| 功能分类    | 函数原型                    | 返回值      | 说明                  |
-|---------|-------------------------|----------|---------------------|
-| **宏定义** | SET_PIN_HIGH(port, pin) |          | 获取开启指定PORT PIN的寄存器值 |
-|         | SET_PIN_LOW(port, pin)  |          | 获取关闭指定PORT PIN的寄存器值 |
-| **函数**  | RNG_GetRange(min, max)  | uint32_t | 获取[min~max]之间的随机数   |
+| 功能分类    | 函数原型                      | 返回值      | 说明                  |
+|---------|---------------------------|----------|---------------------|
+| **宏定义** | `SET_PIN_HIGH(port, pin)` |          | 获取开启指定PORT PIN的寄存器值 |
+|         | `SET_PIN_LOW(port, pin)`  |          | 获取关闭指定PORT PIN的寄存器值 |
+| **函数**  | `RNG_GetRange(min, max)`  | uint32_t | 获取[min~max]之间的随机数   |
 
 # 🎞️ 展示
 
